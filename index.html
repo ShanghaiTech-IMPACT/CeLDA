@@ -1,0 +1,356 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">google.load("jquery", "1.3.2");</script>
+
+<style type="text/css">
+body {
+    font-family: "Titillium Web", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+}
+h1 {
+    font-weight:300;
+    line-height: 1.15em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+a:link,a:visited {
+    color: #B6486F;
+    text-decoration: none;
+}
+a:hover {
+    color: #208799;
+}
+h1, h2, h3 {
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+h2 {
+    font-weight: 400;
+    margin: 16px 0px 4px 0px;
+}
+.paper-title {
+    padding: 16px 0px 16px 0px;
+}
+section {
+    margin: 32px 0px 32px 0px;
+    text-align: justify;
+    clear: both;
+}
+.col-5 {
+     width: 20%;
+     float: left;
+}
+.col-4 {
+     width: 25%;
+     float: left;
+}
+.col-3 {
+     width: 33%;
+     float: left;
+}
+.col-2 {
+     width: 50%;
+     float: left;
+}
+.col-1 {
+     width: 100%;
+     float: left;
+}
+.row, .author-row, .affil-row {
+     overflow: auto;
+}
+.author-row, .affil-row {
+    font-size: 26px;
+}
+.row {
+    margin: 16px 0px 16px 0px;
+}
+.authors {
+    font-size: 26px;
+}
+.affil-row {
+    margin-top: 16px;
+}
+.teaser {
+    max-width: 100%;
+}
+.text-center {
+    text-align: center;  
+}
+.screenshot {
+    width: 256px;
+    border: 1px solid #ddd;
+}
+.screenshot-el {
+    margin-bottom: 16px;
+}
+hr {
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid #ddd;
+    margin: 0;
+}
+.material-icons {
+    vertical-align: -6px;
+}
+p {
+    line-height: 1.25em;
+}
+.caption {
+    font-size: 16px;
+    /*font-style: italic;*/
+    color: #666;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+video {
+    display: block;
+    margin: auto;
+}
+figure {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#bibtex pre {
+    font-size: 14px;
+    background-color: #eee;
+    padding: 16px;
+}
+.blue {
+    color: #2c82c9;
+    font-weight: bold;
+}
+.orange {
+    color: #d35400;
+    font-weight: bold;
+}
+.flex-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.paper-btn {
+  position: relative;
+  text-align: center;
+
+  display: inline-block;
+  margin: 8px;
+  padding: 8px 8px;
+
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  
+  background-color: #B6486F;
+  color: white !important;
+  font-size: 20px;
+  width: 100px;
+  font-weight: 600;
+}
+.paper-btn-parent {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0px;
+}
+.paper-btn:hover {
+    opacity: 0.85;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.venue {
+    /*color: #B6486F;*/
+    font-size: 30px;
+
+}
+
+</style>
+
+<!-- End : Google Analytics Code -->
+<script type="text/javascript" src="../js/hidebib.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic' rel='stylesheet' type='text/css'>
+    <head>
+        <title>Cephalometric Landmark Detection across Ages with Prototypical Network</title>
+        <meta property="og:description" content="Cephalometric Landmark Detection across Ages with Prototypical Network"/>
+        <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:creator" content="@ArashVahdat">
+        <meta name="twitter:title" content="Cephalometric Landmark Detection across Ages with Prototypical Network">
+        <meta name="twitter:description" content="Cephalometric Landmark Detection across Ages with Prototypical Network">
+        <meta name="twitter:image" content="">
+    </head>
+
+ <body>
+<div class="container">
+    <div class="paper-title">
+      <h1>Cephalometric Landmark Detection across Ages with Prototypical Network</h1>
+    </div>
+
+    <div id="authors">
+    	<center>
+        <div class="author-row">
+            <div class="col-4 text-center"><a href="http://hanwu.website/">Han Wu</a><sup>1*</sup></div>
+            <div class="col-4 text-center"><a href="https://cwangrun.github.io/">Chong Wang</a><sup>2*</sup></div>
+            <div class="col-4 text-center">Lanzhuju Mei<sup>1,3</sup></div>
+            <div class="col-4 text-center">Tong Yang<sup>7</sup></div>
+            <div class="col-3 text-center">Min Zhu<sup>6</sup></div>
+            <div class="col-3 text-center"><a href="https://idea.bme.shanghaitech.edu.cn/">Dingggang Shen</a><sup>1,4,5</sup></div>
+            <div class="col-3 text-center"><a href="https://shanghaitech-impact.github.io/">Zhiming Cui</a><sup>1</sup></div>
+        </div> 
+        <center>
+            <table align=center width=800px>
+            <tr>
+                <tr align=center width=800px>
+                <center>
+                <div class="col-1 text-center">
+                    <span style="font-size:20px"><sup>1</sup>School of Biomedical Engineering & State Key Laboratory of Advanced Medical Materials and Devices, ShanghaiTech University, Shanghai, China</span>
+                </div>
+                <div class="col-1 text-center">
+                    <span style="font-size:20px"><sup>2</sup>Australian Institute for Machine Learning, The University of Adelaide</span>
+                </div>
+                <div class="col-1 text-center">
+                    <span style="font-size:20px"><sup>3</sup>Lingang Laboratory, Shanghai, China</span>
+                </div>
+                </center>
+                </tr>
+
+                <tr align=center width=800px>
+                <center>
+                <div class="col-1 text-center">
+                    <span style="font-size:20px"><sup>4</sup>Shanghai United Imaging Intelligence Co. Ltd., Shanghai, China</span>
+                </div>
+                <div class="col-1 text-center">
+                    <span style="font-size:20px"><sup>5</sup>Shanghai Clinical Research and Trial Center, Shanghai, China</span>
+                </div>
+                <div class="col-1 text-center">
+                    <span style="font-size:20px"><sup>6</sup>Shanghai Ninth People's Hospital, Shanghai Jiao Tong University, Shanghai, China</span>
+                </div>
+                <div class="col-1 text-center">
+                    <span style="font-size:20px"><sup>7</sup>Shanghai Linkedcare Information Technology Co., Ltd., Shanghai, China</span>
+                </div>
+                </center>
+                </tr>
+            </tr>
+            </table>
+        </center>
+
+        </center>
+        <br>
+        
+        <div class="affil-row">
+            <div class="venue text-center"><b></b></div>
+        </div>
+        <br>
+        <div style="clear: both">
+            <div class="paper-btn-parent">
+            <a class="paper-btn" href="https://arxiv.org/">
+                <span class="material-icons"> description </span> 
+                 Paper
+            </a>
+            <a class="paper-btn" href="https://github.com/ShanghaiTech-IMPACT/Cephalometric-Landmark-Detection-across-Ages-with-Prototypical-Network">
+                <span class="material-icons"> code </span> 
+                 Code
+            </a>
+        </div></div>
+    </div>
+
+
+
+
+    <section id="news">
+        <h2>News</h2>
+        <hr>
+        <div class="row">
+            <div><span class="material-icons"> event </span> [06/2024] Our paper is accepted by MICCAI 2024!</div>
+        </div>
+    </section>
+
+    <section id="abstract"/>
+        <h2>Abstract</h2>
+        <hr>
+        <center><img width="100%" src="./imgs/difference_point.png" style="margin-top: 20px; margin-bottom: 3px;"></center>
+        <p class="caption">
+            (a) An adult case, with regular anatomical structures and permanent teeth (orange arrow); 
+            (b,c,d) adolescent cases, with complicated anatomical changes due to unerupted teeth (blue arrow) and baby teeth (green arrow). 
+            These changes on adolescent cases cause significant landmark shifts. Here we show only two landmarks (red points) out of ten for better visualization.
+        </p><p class="caption">
+        <div class="flex-row">
+            <p>Automated cephalometric landmark detection is crucial in real-world orthodontic diagnosis. Current studies mainly focus on only adult subjects, neglecting the clinically crucial scenario presented by adolescents whose landmarks often exhibit significantly different appearances compared to adults. Hence, an open question arises about how to develop a unified and effective detection algorithm across various age groups, including adolescents and adults.In this paper, we propose CeLDA, the first work for <strong>Ce</strong>phalometric <strong>L</strong>andmark <strong>D</strong>etection across <strong>A</strong>ges. Our method leverages a prototypical network for landmark detection by comparing image features with landmark prototypes. To tackle the appearance discrepancy of landmarks between age groups, we design new strategies for CeLDA to improve prototype alignment and obtain a holistic estimation of landmark prototypes from a large set of training images. Moreover, a novel prototype relation mining paradigm is introduced to exploit the anatomical relations between the landmark prototypes. Extensive experiments validate the superiority of CeLDA in detecting cephalometric landmarks on both adult and adolescent subjects. To our knowledge, this is the first effort toward developing a unified solution and dataset for cephalometric landmark detection across age groups. Our code and dataset will be made public at <a href="https://github.com/ShanghaiTech-IMPACT/Cephalometric-Landmark-Detection-across-Ages-with-Prototypical-Network">https://github.com/ShanghaiTech-IMPACT/Cephalometric-Landmark-Detection-across-Ages-with-Prototypical-Network</a>.</p>
+        </div>
+    </section>
+
+    <section id="Methodology"/>
+        <h2>Methodology</h2>
+        <hr>
+        <center><img width="100%" src="./imgs/pipeline.png" style="margin-top: 20px; margin-bottom: 3px;"></center>
+    </section>
+
+    <section id="dataset"/>
+        <h2>Dataset</h2>
+        <hr>
+        <div class="flex-row">
+            <p>
+                For the task of cephalometric landmark detection across age groups, we collected a new benchmark dataset, named CephAdoAdu, with both adolescent and adult cases,
+                distinguishing it from existing datasets that solely consist of either adolescent or adult cases. 
+                CephAdoAdu has a total of 1000 (500 adult cases, 500 adolescent cases) cephalometric X-ray images, acquired from eight clinical centers. 
+                Every cephalometric image underwent manual annotations to mark 10 typical landmarks, by an experienced dental radiologist with over ten years of expertise.
+
+                In clinical practice, the templates used by different regions and hospitals vary significantly in the number and definition of landmarks(e.g. Vienna template, Huaxi template). 
+                For CephAdoAdu annotation, we consulted experienced dentists and selected landmarks based on two criteria: 
+                1) they are defined in all templates, and 
+                2) they are challenging to detect across ages. 
+                Ultimately, we selected 10 typical target landmarks. </p>
+            <p>
+                Our new dataset has two advantages over existing ones: 
+                1) a more clinically practical coverage of subjects across different age groups; 
+                2) a larger number of annotated images, ensuring a comprehensive and faithful model evaluation. 
+                The whole dataset is randomly divided into training set (400 images), validation set (300 images), and testing set (300 images).
+                Notice that our data split is evenly performed in terms of the adult and adolescent cases, 
+                and adolescents are defined by the presence of baby teeth, regardless of age, while adults by the absence of baby teeth. 
+            </p>
+            <p>
+                ★We are still working on data anonymization. Once we have completed this process, we will publish the download link for our CephAdoAdu dataset and our source code.
+            </p>
+        </div>
+    </section>
+
+
+
+    <section id="results"/>
+        <h2>Results</h2>
+        <hr>
+        <center><img width="100%" src="./imgs/results.png" style="margin-top: 20px; margin-bottom: 3px;"></center>
+    </section>
+
+
+    <section id="bibtex">
+        <h2>Citation</h2>
+        <hr>
+        <pre><code>@article{wu2024cephalometric,
+        title={Cephalometric Landmark Detection across Ages with Prototypical Network}, 
+        author={Han Wu, Chong Wang, Lanzhuju Mei, Tong Yang, Min Zhu, Dingggang Shen, Zhiming Cui},
+      }
+        </code></pre>
+    </section>
