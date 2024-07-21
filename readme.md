@@ -38,18 +38,16 @@ python code/test.py --base_dir /path/to/your/saved/model
 
 ## Dataset
 
-⭐ Currently, we are still working on data anonymization. Once we have completed this process, we will publish the download link for our CephAdoAdu dataset at this repository.
+★ Currently, we are still working on data anonymization. Once we have completed this process, we will publish the download link for our CephAdoAdu dataset at this repository.
 
 
 ## Citation
 
 If you find this code or dataset useful, please cite our paper:
 
-    @inproceedings{wu2024cephalometric,
-      title={Cephalometric Landmark Detection across Ages with Prototypical Network},
-      author={Wu, Han and Wang, Chong and Mei, Lanzhuju and Yang, Tong and Zhu, Min and Shen, Dingggang and Cui, Zhiming},
-      booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
-      pages={466--474},
-      year={2024},
-      organization={Springer}
-    }
+    @article{wu2024cephalometric,
+        title={Cephalometric Landmark Detection across Ages with Prototypical Network}, 
+        author={Han Wu, Chong Wang, Lanzhuju Mei, Tong Yang, Min Zhu, Dingggang Shen, Zhiming Cui},
+        journal={arXiv preprint arXiv:2406.12577},
+        year={2024}
+      }
