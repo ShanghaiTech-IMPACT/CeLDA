@@ -8,6 +8,7 @@ by [Han Wu](https://hanwu.website/)\*, [Chong Wang](https://cwangrun.github.io/)
 This repository contains the code and dataset for our paper "Cephalometric Landmark Detection across Ages with Prototypical Network" in MICCAI 2024.
 
 ## Updates
+- [09/2024] Dataset released!
 - [07/2024] Source code released!
 - [06/2024] Our paper is accepted by MICCAI 2024!
 
@@ -38,8 +39,7 @@ python code/test.py --base_dir /path/to/your/saved/model
 
 ## Dataset
 
-★ Currently, we are still working on data anonymization. Once we have completed this process, we will publish the download link for our CephAdoAdu dataset at this repository.
-
+★ Our dataset is available for reserach purpose only. To apply for CephAdoAdu dataset, please fill out the [form](./data_registration.pdf) and send the **signed e-copy** to Han Wu (email: wuhan2022@shanghaitech.edu.cn) as well as **CC your advisor** as mentioned in Sec.5 of the form. We will send you the dataset link and password when recieving the data registration form.
 
 ## Citation
 
