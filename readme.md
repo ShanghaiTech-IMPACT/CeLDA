@@ -45,7 +45,8 @@ python code/test.py --base_dir /path/to/your/saved/model
 
 If you find this code or dataset useful, please cite our paper:
 
-    @inproceedings{wu2024cephalometric,
+```c
+@inproceedings{wu2024cephalometric,
   title={Cephalometric Landmark Detection across Ages with Prototypical Network},
   author={Wu, Han and Wang, Chong and Mei, Lanzhuju and Yang, Tong and Zhu, Min and Shen, Dinggang and Cui, Zhiming},
   booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
@@ -53,3 +54,4 @@ If you find this code or dataset useful, please cite our paper:
   year={2024},
   organization={Springer Nature Switzerland Cham}
 }
+```
