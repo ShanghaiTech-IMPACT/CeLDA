@@ -45,9 +45,11 @@ python code/test.py --base_dir /path/to/your/saved/model
 
 If you find this code or dataset useful, please cite our paper:
 
-    @article{wu2024cephalometric,
-        title={Cephalometric Landmark Detection across Ages with Prototypical Network}, 
-        author={Han Wu, Chong Wang, Lanzhuju Mei, Tong Yang, Min Zhu, Dingggang Shen, Zhiming Cui},
-        journal={arXiv preprint arXiv:2406.12577},
-        year={2024}
-      }
+    @inproceedings{wu2024cephalometric,
+  title={Cephalometric Landmark Detection across Ages with Prototypical Network},
+  author={Wu, Han and Wang, Chong and Mei, Lanzhuju and Yang, Tong and Zhu, Min and Shen, Dinggang and Cui, Zhiming},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={155--165},
+  year={2024},
+  organization={Springer Nature Switzerland Cham}
+}
