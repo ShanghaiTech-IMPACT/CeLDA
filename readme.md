@@ -39,7 +39,7 @@ python code/test.py --base_dir /path/to/your/saved/model
 
 ## Dataset
 
-★ Our dataset is available for reserach purpose only. To apply for CephAdoAdu dataset, please fill out the [form](./data_registration.pdf) and send the **signed e-copy** to Han Wu (email: wuhan2022@shanghaitech.edu.cn) as well as **CC your advisor** as mentioned in Sec.5 of the form. We will send you the dataset link and password when recieving the data registration form.
+★ Our dataset is available for reserach purpose only. To apply for CephAdoAdu dataset, please refer to the [dataset website of IMPACT Lab](https://shanghaitech-impact.github.io/dataset/) and fill out the [form](https://shanghaitech-impact.github.io/assets/dataset_application.pdf) and send the **signed e-copy** to Han Wu (email: wuhan2022@shanghaitech.edu.cn) and Dr. Zhiming Cui (email: cuizhm@shanghaitech.edu.cn) as well as **CC your advisor** as mentioned in Sec.5 of the form. We will send you the dataset link and password when recieving the data registration form.
 
 ## Citation
 
